@@ -58,14 +58,14 @@ const diametroCirculo = radioCirculo*2;
 
 //Perimetro
 const PI = Math.PI;
-console.log(PI);
+console.log("El valor de PI es:",PI);
 
 const perimetroCirculo = diametroCirculo*PI;
 console.log("El perimetro del Circulo es:", perimetroCirculo);
 
 //Area
 const areaCirculo = (radioCirculo*radioCirculo)*PI;
-console.log("El area del curculo es:", areaCirculo);
+console.log("El area del curculo es:", areaCirculo, "cm^2");
 
 console.groupEnd();
 
