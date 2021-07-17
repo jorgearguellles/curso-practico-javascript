@@ -18,10 +18,29 @@
     <form>
       <label for="InputCuadrado">
         Escribe cuanto mide cada lado de tu cuadrado:
+        <input id="InputCuadrado" type="number" />
       </label>
-      <input id="InputCuadrado" type="number" />
       <button type="button" onclick="calcularPerimetroCuadrado()">Calcula el Perímetro</button>
       <button type="button" onclick="calcularAreaCuadrado()">Calcula el Área</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Calcula la Altura de un triagunlo Isoceles</h2>
+    <form>
+      <label for="InputPrimerLado">
+        Escribe cuanto mide el primer lado del triagulo:
+        <input id="InputPrimerLado" type="number" />
+      </label>
+      <label for="InputSegundoLado">
+        Escribe cuanto mide el segundo lado del triagulo:
+        <input id="InputSegundoLado" type="number" />
+      </label>
+      <label for="InputBase">
+        Escribe cuanto mide la base del triangulo:
+        <input id="InputBase" type="number" />
+      </label>
+      <button type="button" onclick="calcularAlturaTriguloIsoceles()">Calcula la altura</button>
     </form>
   </section>
 

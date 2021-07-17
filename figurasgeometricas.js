@@ -58,3 +58,22 @@ function calcularAreaCuadrado(){
   const perimetro = areaCuadrado(value) 
   alert(perimetro);
 }
+
+//Reto: calcular la altura de un triángulo isósceles.
+
+function calcularAlturaTriguloIsoceles(){
+  const inputLado1 = document.getElementById("InputPrimerLado");
+  const lado1 = inputLado1.value;
+  const inputLado2 = document.getElementById("InputSegundoLado");
+  const lado2 = inputLado2.value;
+  const inputBase = document.getElementById("InputBase");
+  const base = inputBase.value;
+
+  if(lado1 !== lado2){
+    alert("El lado 1 no es igual al lado 2, por favor veririca que tenga el mismo valor ")
+  } else {
+    let calc = (lado1*lado1)-((base*base)/4);
+    let altura = Math.sqrt(calc);
+    alert(altura);
+  }
+}
