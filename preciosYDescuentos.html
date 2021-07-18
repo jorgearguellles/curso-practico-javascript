@@ -7,6 +7,27 @@
   <title>Taller 2: Precios y Descuentos</title>
 </head>
 <body>
+  <h2>Calcula el precio que pagaras despues del descuento</h2>
+  <form>
+    <label for="InputPrice">
+      Escribe el precio del artículo:
+      <input id="InputPrice" type="number" />
+    </label>
+    <br />
+    <!-- <label for="InputDescuento">
+      Escribe el % de descuento:
+      <input id="InputDescuento" type="number" />
+    </label> -->
+    <br />
+    <label for="InputCoupon">
+      Escribe el cupon de descuento:
+      <input id="InputCoupon" type="text" />
+    </label>
+    <br />
+
+    <button type="button" onclick="calculaDescuentoCupon()">Calcula el descuento</button>
+    <p id="ResultP"></p>
+  </form>
   
   <script src="preciosYDescuentos.js"></script>
 </body>
