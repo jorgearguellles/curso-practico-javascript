@@ -1,6 +1,6 @@
 const lista1 = [1,2,5,3,7,5,8,670,7,98,9,8,10];
 
-function medianaDeLista(lista){
+function calcularMediana(lista){
   
   let listaOrdenada = lista.sort(function(a, b) {
     return a - b;
